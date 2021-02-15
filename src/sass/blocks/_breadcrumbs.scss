@@ -1,0 +1,38 @@
+.breadcrumbs {
+        width: 100%;
+        position: absolute;
+        top: 70px;
+
+
+        &-items {}
+
+        li {
+                display: inline-block;
+                font-size: 12px;
+                color: #fff;
+
+                a {
+                        color: #fff;
+                        position: relative;
+                        display: inline-block;
+                        font-size: 12px;
+                        padding-right: 26px;
+
+                        &::after {
+                                content: '';
+                                position: absolute;
+                                right: 12px;
+                                width: 4px;
+                                height: 4px;
+                                background: #fff;
+                                -webkit-transform: rotate(45deg);
+                                transform: rotate(45deg);
+                                top: 7px;
+
+                                &::after:last-child {
+                                        display: none;
+                                }
+                        }
+                }
+        }
+}

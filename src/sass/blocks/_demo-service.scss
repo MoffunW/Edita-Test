@@ -1,0 +1,62 @@
+.demo-service {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+}
+
+.demo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: url('../../img/demo-service/demo-bg.jpg') center no-repeat;
+        background-size: cover;
+        padding: 70px 20px 45px 20px;
+        width: 50%;
+        height: 350px;
+        text-align: center;
+        color: #fff;
+
+        &__visit {
+                font-weight: 300;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+        }
+
+        &__transfer {
+                font-weight: 300;
+        }
+
+        &__button {
+                margin: 0 auto;
+                min-width: 195px;
+        }
+}
+
+.service {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: #ededed;
+        padding: 70px 20px 70px 20px;
+        width: 50%;
+        height: 350px;
+        text-align: center;
+
+
+        &:hover {
+                cursor: pointer;
+        }
+
+        a {
+                text-decoration: none;
+                color: #000;
+        }
+
+
+        &__heart {
+                width: 36px;
+                height: 36px;
+                margin: 0 auto;
+        }
+}

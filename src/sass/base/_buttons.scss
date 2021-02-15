@@ -1,0 +1,25 @@
+.button {
+        background: transparent;
+        border: 1px solid #000;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        height: 50px;
+        min-width: 170px;
+        max-width: 340px;
+        transition: 0.2s linear;
+
+        &:hover {
+                background: $main-color;
+                border: transparent;
+                color: #fff;
+        }
+
+        &-white {
+                color: white;
+                border: 1px solid #fff;
+        }
+
+        &:focus {
+                outline: none;
+        }
+}

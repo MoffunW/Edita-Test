@@ -1,0 +1,133 @@
+.form {
+        &__container {
+                padding: 50px 100px;
+                background: linear-gradient(to right, #172238 0%, #395585 50%, #172238 100%);
+                display: flex;
+                flex-direction: column;
+                width: 880px;
+                margin: 0 auto;
+
+
+        }
+
+        &-item {
+                display: flex;
+                // justify-content: space-between;
+                padding: 5px 0;
+                color: #fff;
+        }
+
+        &__label {
+                color: #fff;
+                font-size: 12px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+                margin-right: 50px;
+                width: 250px;
+        }
+
+        &__input {
+                border-radius: 0;
+                background: transparent;
+                border: 1px solid #fff;
+                height: 50px;
+                width: 380px;
+                padding: 15px;
+                color: #fff;
+                font-size: 16px;
+
+
+
+                &-text {
+                        resize: none;
+                        height: 100px;
+                }
+        }
+
+        // Убираем дефолтный инпут загрузки файла и стилизуем лейбл
+
+        input[type='file'] {
+                display: none;
+        }
+
+        &__file {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                width: 180px;
+                background: transparent;
+                border: 1px dashed #fff;
+                margin-bottom: 0;
+                font-weight: 300;
+        }
+
+        &__btn {
+                margin: 0 auto;
+                margin-top: 10px;
+                height: 50px;
+                width: 370px;
+        }
+
+        &__policy {
+                display: flex;
+                justify-content: center;
+                font-size: 13px;
+                color: #fff;
+                font-weight: 300;
+                padding-left: 25px;
+                position: relative;
+                margin-bottom: 7px;
+
+                a {
+                        color: #fff;
+                        font-weight: 300;
+                        text-decoration: underline;
+                }
+
+
+                &:before {
+                        content: '';
+                        width: 15px;
+                        height: 15px;
+                        border: 1px solid #fff;
+                        position: absolute;
+                        left: 0px;
+                        top: 1px;
+                }
+
+                &:after {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        color: #fff;
+                }
+
+                &::before {
+                        content: '';
+                        display: inline-block;
+                        width: 1em;
+                        height: 1em;
+                        flex-shrink: 0;
+                        flex-grow: 0;
+                        border: 1px solid #adb5bd;
+                        border-radius: 0.25em;
+                        margin-right: 0.5em;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: 50% 50%;
+                }
+
+
+        }
+
+        &__checkbox {
+                position: absolute;
+                opacity: 0;
+
+                &:checked:after {
+                        opacity: 1;
+                }
+        }
+}

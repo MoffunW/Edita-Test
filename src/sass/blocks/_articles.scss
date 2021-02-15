@@ -1,0 +1,79 @@
+.articles {
+        position: relative;
+        text-align: center;
+        transition: 0.4s linear;
+        background: $main-bg;
+        padding: 70px 0 60px 0;
+
+        &__title {
+                color: #fff;
+        }
+
+        &__container {
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 60px;
+        }
+
+        &__item {
+                background: url('../../img/articles/arcticles-1.jpg');
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                padding: 70px 20px;
+                height: 340px;
+                width: 570px;
+                color: #fff;
+                transition: 0.4s linear;
+                z-index: 2;
+
+                &:hover {
+                        background: url('../../img/articles/articles-2.jpg');
+
+
+
+
+                        &::after {
+                                content: '';
+                                position: absolute;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                height: 80%;
+                                width: 90%;
+                                background: rgba(255, 255, 255, 0.9);
+                                z-index: 1;
+                        }
+
+                        .articles__title {
+                                color: #000;
+                                z-index: 2;
+                        }
+
+                        .articles__button {
+                                border: 1px solid #000;
+                                color: #000;
+                                background: transparent;
+                                z-index: 2;
+                        }
+
+
+                }
+        }
+
+        &__more {
+                text-transform: uppercase;
+                color: #000;
+                text-decoration: underline;
+                font-weight: 700;
+                letter-spacing: 1px;
+
+                &:hover {
+                        color: #000;
+                        text-decoration: none;
+                }
+        }
+
+}

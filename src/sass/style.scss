@@ -1,0 +1,45 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import 'libs/slick';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/buttons';
+@import 'base/titles';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+@import 'blocks/header';
+@import 'blocks/sidepannel';
+@import 'blocks/breadcrumbs';
+@import 'blocks/promo';
+@import 'blocks/order';
+@import 'blocks/measure';
+@import 'blocks/form';
+@import 'blocks/features';
+@import 'blocks/about';
+@import 'blocks/slider-template';
+@import 'blocks/demo-service';
+@import 'blocks/discount';
+@import 'blocks/articles';
+@import 'blocks/novety';
+@import 'blocks/footer';
+@import 'blocks/media';
