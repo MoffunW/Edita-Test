@@ -100,6 +100,7 @@
                         .slider__btn {
                                 transform: translateY(101%);
                                 transform: translateX(-50%);
+                                bottom: 30px;
                                 opacity: 1;
                         }
                 }
@@ -112,7 +113,7 @@
 
         &__info {
                 position: absolute;
-                bottom: 50px;
+                bottom: 80px;
                 left: 15px;
                 padding: 20px 30px 25px;
                 display: flex;
@@ -176,9 +177,8 @@
                 background: $main-color;
                 border: transparent;
                 color: #fff;
-                bottom: -10px;
                 width: 90%;
-                left: 47%;
+                left: 50%;
                 transform: translateX(-50%);
                 bottom: 51px;
                 opacity: 0;

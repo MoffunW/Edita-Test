@@ -5,6 +5,10 @@
                 padding: 0 5px;
         }
 
+        .recommended {
+                width: 975px;
+        }
+
         // Header
         .header {
                 background: #fff;
@@ -193,7 +197,7 @@
                 &-item {
                         &:hover {
                                 .slider__btn {
-                                        bottom: 30px;
+                                        bottom: 0px;
                                 }
                         }
 
