@@ -112,12 +112,15 @@
         }
 
         &__bottom {
+                width: 100%;
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 height: 45px;
 
                 &_container {
-                        padding: 0 10px;
+                        width: 100%;
+                        padding: 0 20px;
                         display: flex;
                         justify-content: space-between;
                 }
