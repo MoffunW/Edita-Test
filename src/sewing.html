@@ -11,7 +11,8 @@
 </head>
 <body>
 
-    <!-- Header  -->
+    <!-- Header -->
+
     <header class="header">
         <div class="container">
 
@@ -28,7 +29,7 @@
                     <div class="header__logo">
                         <a href="/">
                             <img id="headerLogo" src="/img/logo.svg" alt="Шубы и меховые изделия Эдита">
-                            <span>Меховая фабрика</span>
+                            <h1>Меховая фабрика</h1>
                         </a>
                     </div>
                         <ul class="header__sublinks" id="nav">
@@ -37,10 +38,10 @@
                             <li class="header__sublink"><a href="#">Детям</a></li>
                         </ul>
                         <div class="header__buttons">
-                            <button class="header__button header__button-consultation">Бесплатная консультация<br> модельера</button>
-                            <button class="header__button header__button-order">Закажите шубу<br> по Вашим меркам</button>
+                            <a href="#"><button class="header__button header__button-consultation">Бесплатная консультация<br> модельера</button></a>
+                            <a href="./sewing.html"><button class="header__button header__button-order">Закажите шубу<br> по Вашим меркам</button></a>
                         </div>
-                        <a class="header__phone" href="tel:+79283471718"> +7 928 347 17 18</a>
+                        <a class="header__phone" href="tel:+79283471718">+7 928 347 17 18</a>
                 </div>
             </div>  
         </div>
@@ -51,7 +52,7 @@
         <div class="container">
             <div class="breadcrumbs">
                 <ul class="breadcrumbs-items">
-                    <li><a href="#"> Главная</a></li>
+                    <li><a href="/"> Главная</a></li>
                     <li class="active">Шуба на заказ</li>
                 </ul>
             </div>
@@ -66,8 +67,8 @@
             <div class="measure__subtitle">Для более точной оценки сроков пошива и стоимости иделия на заказ, <br> предлагаем Вам заполнить следующие данные:</div>
             <div class="measure__wrapper">
                 <div class="measure__item">
-                    <img src="img/sewing/measure/measure-1.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                        <img  class="measure__img" src="img/sewing/measure/measure-1.png"></img>
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Высота груди</div>
                         <div class="measure__input">
                             <input name="measure-1" type="number"> 
@@ -78,7 +79,7 @@
                 
                 <div class="measure__item">
                     <img src="img/sewing/measure/measure-2.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Высота до талии спереди</div>
                         <div class="measure__input">
                             <input name="measure-2" type="number"> 
@@ -89,7 +90,7 @@
                 
                 <div class="measure__item">
                     <img src="img/sewing/measure/measure-3.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Ширина спины</div>
                         <div class="measure__input">
                             <input name="measure-3" type="number"> 
@@ -100,7 +101,7 @@
                 
                 <div class="measure__item">
                     <img src="img/sewing/measure/measure-4.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Ширина плеча</div>
                         <div class="measure__input">
                             <input name="measure-4" type="number"> 
@@ -111,7 +112,7 @@
                 
                 <div class="measure__item">
                     <img src="img/sewing/measure/measure-5.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Обхват груди</div>
                         <div class="measure__input">
                             <input name="measure-5" type="number"> 
@@ -122,7 +123,7 @@
                 
                 <div class="measure__item">
                     <img src="img/sewing/measure/measure-6.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Обхват бёдер</div>
                         <div class="measure__input">
                             <input name="measure-6" type="number"> 
@@ -133,7 +134,7 @@
                 
                 <div class="measure__item">
                     <img src="img/sewing/measure/measure-7.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Длина спины до талии</div>
                         <div class="measure__input">
                             <input name="measure-7" type="number"> 
@@ -144,7 +145,7 @@
                 
                 <div class="measure__item">
                     <img src="img/sewing/measure/measure-8.png" class="measure__img"></img>
-                    <div class="measure__item-wrapper">
+                    <div class="measure__item__wrapper">
                         <div class="measure__type">Длина изделия</div>
                         <div class="measure__input">
                             <input name="measure-2" type="number"> 
@@ -172,7 +173,7 @@
                     </div>
                     <div class="form-item">
                         <label class="form__label" for="phone">Для дальнейшего общения нашего<br> специалиста с вами укажите свои<br> контакты</label>
-                        <input type="tel" id="order-phone" class="form__input" name="order-phone" placeholder="+7(__)___-__-__*" required="" aria-required="true" aria-invalid="false">
+                        <input type="tel" id="order-phone" class="form__input" name="order-phone" placeholder="+7(__)___-__-__*" required="required" aria-required="true" aria-invalid="false">
                     </div>
                     <div class="form-item">
                         <label class="form__label" for="comment">Вы можете указать желаемый размер, цвет, вид меха, или задать нам любой интересующий Вас вопрос</label>
@@ -191,9 +192,9 @@
                     
 
                     
+                    <input type="checkbox" name="pol" id="pol" class="form__checkbox" required="required">
                     <label for="pol" class="form__policy">
-                        <input type="checkbox" name="pol" id="pol" class="form__checkbox" checked="" required="">
-                        <a href="#">Согласие</a> с политикой персональных данных 
+                        <span><a href="#">Согласие</a> с политикой персональных данных </span>
                     </label>
                 <button class="form__btn" type="submit">Заказать пошив</button>
             </form> 
@@ -227,7 +228,7 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer__wrapper">
-                    <img class="footer__logo" src="img/footer/logo.jpg"></img>
+                    <img class="footer__logo" src="img/footer/logo.png"></img>
                     <ul class="footer__links">
                         <li class="footer__link"><a href="#">О фабрике</a></li>
                         <li class="footer__link"><a href="#">Статьи</a></li>
@@ -255,7 +256,6 @@
                     </address>
     
                     <div class="footer__assortment__wrapper">
-    <!-- Нужно было бы завернуть это в ссылки, но это не такой уж навык :) -->
                         <ul class="footer__assortment__column footer__assortment__column-1">Шубы
                             <li class="footer__assortment_item">Шубы из норки</li>
                             <li class="footer__assortment_item">Цветные шубы</li>
