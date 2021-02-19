@@ -10,9 +10,9 @@ Using Firebase as a server (https://firebase.google.com/)
 
 To start the project localy you should type:
 
-  ###`npm install` 
+ `npm install` 
 
-  ###`gulp`
+ `gulp`
 
   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
