@@ -8,7 +8,7 @@ Using Firebase as a server (https://firebase.google.com/)
 
 ###  For developers
 
-To start the project localy you should type:
+To start the project locally you should type:
 
  `npm install` 
 
