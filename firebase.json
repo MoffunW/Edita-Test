@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "y",
+    "site": "edita-13fbd",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
